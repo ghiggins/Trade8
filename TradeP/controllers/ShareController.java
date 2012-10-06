@@ -30,6 +30,7 @@ public class ShareController  {
 	public void addShare(Share share){
 		
 		if(!sharesArray.isEmpty()){	
+			
 			Share newShare = share;
 			List<Share> idList = getSharesById(share.getShareId());
 			
